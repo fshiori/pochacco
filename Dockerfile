@@ -33,4 +33,4 @@ COPY --from=builder /app/pochacco .
 RUN chmod +x ./pochacco
 
 # 設置入口點
-ENTRYPOINT ["./pochacco"] 
+CMD ["bash"] 
